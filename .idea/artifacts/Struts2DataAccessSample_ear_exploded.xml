@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="Struts2DataAccessSample:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Struts2DataAccessSample_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Struts2DataAccessSample/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="web.war">
+        <element id="artifact" artifact-name="Struts2DataAccessSample:war exploded" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="Struts 2-2.3.20.1" />
+      </element>
+    </root>
+  </artifact>
+</component>
